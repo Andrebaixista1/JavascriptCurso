@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculo Orçamento</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="area-calculadora">
+      <h1>Orçamento de Pedido</h1>
+      <form action="">
+      <p id="title-forms">Facil de usar !</p>
+      <p>Só colocar o valor que você ira gastar na produção</p>
+      <br />
+      
+        <label for="custo-prod">Custo de Produção</label><br />
+        <input type="number" id="custo-prod" placeholder="Ex.: 20,90" /><br />
+
+        <label for="lucroPrice">% Lucro</label><br />
+        <input type="text" id="lucroPrice" placeholder="Ex.: 70" /><br />
+        <button type="reset" onclick="calcularLucro()">Calcular</button>
+      </form>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
